@@ -1,0 +1,173 @@
+html {
+     background-color: white;
+}
+
+
+.box {
+     display:inline-flex;
+     flex-direction: row;
+     position: relative;
+     left: 250px;
+     top: 80px;
+}
+
+.Laranja {
+     width: 250px;
+     height: 400px;
+     background-color: hsl(31, 77%, 52%);
+     padding:20px;
+     border-radius: 15px 0 0 15px;
+     transition: 1s;
+     overflow: hidden;
+     cursor: default;
+}
+
+.Laranja:hover {
+     transform: scale(1.1);
+     border-radius: 15px 15px 15px 15px;
+}
+
+.Azul {
+     background-color: hsl(184, 100%, 22%);
+     width: 250px;
+     height: 400px;
+     padding: 20px;
+     transition: 1s;
+     overflow: hidden;
+     cursor: default;
+}
+
+.Azul:hover {
+     transform: scale(1.1);
+     border-radius: 15px 15px 15px 15px;
+}
+
+.Verde {
+     background-color: hsl(179, 100%, 13%);
+     width: 250px;
+     height: 400px;
+     padding: 20px;
+     border-radius: 0 15px 15px 0;
+     transition: 1s;
+     overflow: hidden;
+     cursor: default;
+}
+
+.Verde:hover {
+     transform: scale(1.1);
+     border-radius: 15px 15px 15px 15px;
+}
+
+.T1 {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Tex1 {
+     color: white;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     padding-bottom: 70px;
+     padding-left: 20px;
+     padding-right: 20px;
+}
+
+.bot1 {
+     width: 100px;
+     height: 35px;
+     border: 1px;
+     border-radius: 50px;
+     color:  hsl(31, 77%, 52%);
+     position:relative;
+     left:18px;
+     cursor: pointer;
+}
+
+.T2 {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Tex2 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bot2 {
+     width: 100px;
+     height: 35px;
+     border: 1px;
+     border-radius: 50px;
+     color:  hsl(184, 100%, 22%);
+     position:relative;
+     left:18px;
+     cursor: pointer;
+}
+
+.T3 {
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.Tex3 {
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bot3 {
+     width: 100px;
+     height: 35px;
+     border: 1px;
+     border-radius: 50px;
+     color:  hsl(179, 100%, 13%);
+     position:relative;
+     left:18px;
+     cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
